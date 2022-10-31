@@ -12,6 +12,18 @@ package com.mycompany.ejercicios;
 public class EJERCICIOS {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        
+        /** Ejercicio de SUMA 27/10/22 **/
+        
+        //Definimos los parametros de entrada de la clase SUMA
+        double numero1 =3;
+        double numero2= 5;
+        
+        //Instanacioamos la clase y pasamos la parametros e imprimimos por pantalla
+        Suma miSuma= new Suma(numero1,numero2);
+        System.out.println(miSuma.toString());
+        
+        
     }
 }
